@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 10vh;
+    font-size: 5vw;
+
+    background-image: linear-gradient(to right, #d621ec, #956fff, #4095ff, #00aeff, #00c0ff, #00caf8, #00d2ec, #00d9dd, #00ddc6, #00dfa0, #00de6c, #34da1b);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+span{
+   background-color: purple;
+   color: white;
+   font-size: 6vw;
+    margin: 0 2rem;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    display: inline-flex;
+    width: 15vw;
+}
